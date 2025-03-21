@@ -1,0 +1,11 @@
+{
+  "name": "$PROJECT_NAME",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "concurrently \"npm start\" \"cd api && node index.js\"",
+    "build": "cd client && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^7.0.0"
+  }
+}
